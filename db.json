@@ -1,0 +1,67 @@
+{
+    "course": [
+        {
+            "id": 1,
+            "imgL": "../../../assets/assets/1.png",
+            "imgS": "../../../assets/assets/1-1.png",
+            "title": "User Research for User Experience Design",
+            "college": "The Museum of Modern Art"
+        },
+        {
+            "id": 2,
+            "imgL": "../../../assets/assets/2.png",
+            "imgS": "../../../assets/assets/2-2.png",
+            "title": "Buddhism and Modern Psychology",
+            "college": "The Museum of Modern Art"
+        },
+        {
+            "id": 3,
+            "imgL": "../../../assets/assets/3.png",
+            "imgS": "../../../assets/assets/3-3.png",
+            "title": "Introduction to Philosophy",
+            "college": "Duke University"
+        },
+        {
+            "id": 4,
+            "imgL": "../../../assets/assets/4.png",
+            "imgS": "../../../assets/assets/1-1.png",
+            "title": "Advance on Seeing Through Photographs",
+            "college": "The Museum of Modern Art"
+        },
+        {
+            "id": 5,
+            "imgL": "../../../assets/assets/5.png",
+            "imgS": "../../../assets/assets/2-2.png",
+            "title": "Think Again I How to Understand Arguments",
+            "college": "The Museum of Modern Art"
+        },
+        {
+            "id": 6,
+            "imgL": "../../../assets/assets/6.png",
+            "imgS": "../../../assets/assets/3-3.png",
+            "title": "User Research for User Experience Design",
+            "college": "The Museum of Modern Art"
+        },
+        {
+            "id": 7,
+            "imgL": "../../../assets/assets/7.png",
+            "imgS": "../../../assets/assets/1-1.png",
+            "title": "User Research for User Experience Design",
+            "college": "The Museum of Modern Art"
+        },
+        {
+            "id": 8,
+            "imgL": "../../../assets/assets/8.png",
+            "imgS": "../../../assets/assets/1-1.png",
+            "title": "User Research for User Experience Design",
+            "college": "The Museum of Modern Art"
+        },
+        {
+            "id": 9,
+            "imgL": "../../../assets/assets/9.png",
+            "imgS": "../../../assets/assets/2-2.png",
+            "title": "Modern and Contemporary Art and Design",
+            "college": "The Museum of Modern Art"
+        }
+    ]
+}

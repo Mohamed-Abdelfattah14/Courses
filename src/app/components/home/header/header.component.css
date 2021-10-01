@@ -1,0 +1,36 @@
+/* BANNER */
+.banner {
+    color: #002147;
+    background-color: #f0f4f9;
+  }
+  
+  .banner-title {
+    font-size: 1.9vh;
+  }
+  
+  .banner-learn {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3vmax;
+  }
+  
+  .quote-btn {
+    margin-right: 12px;
+    padding: 10px 25px !important;
+    background-color: #fdc800 !important;
+    color: #002147 !important;
+  }
+  
+  .read-more-btn {
+    padding: 10px 25px !important;
+    background-color: #ffff !important;
+    color: #002147 !important;
+    border-color: #bdbdbd !important;
+  }
+  
+  @media (max-width: 525px) {
+    .banner-right-side {
+      display: none;
+    }
+  }
+  
+  /* END BANNER */

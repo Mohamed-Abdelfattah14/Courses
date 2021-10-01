@@ -1,0 +1,94 @@
+.pricing-main{
+    background-color: #F0F4F9;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.pricing-main .head-h4{
+    color: #FDC800;
+    font-size: 20px;
+}
+.pricing-main .head-h2{
+    color: #002147;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+.card{
+    margin-bottom: 50px;
+    padding: 0 20px 20px 20px;
+    border-radius: 8px;
+}
+.pricing-main .head-card1{
+    background-color: #0053A7 !important;
+    margin: auto;
+    padding-top: 14px;
+    padding-bottom: 0px;
+    border-radius: 0;
+    color: white;
+    width: 10rem;
+}
+.pricing-main .card-price{
+    color: #002147;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.pricing-main .card-price .span-price{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.pricing-main .card-item{
+    color: #002147;
+}
+.pricing-main .card-item li{
+    padding-left: 1em;
+    margin-top: 10px;
+    list-style: none;
+    list-style-image: url("/assets/assets/check-green.png");    
+}
+.pricing-main .card-item .item1-1{
+    list-style-image: url("/assets/assets/check-gray.png");
+}
+.pricing-main .card-item .item1-2{
+    color: #FDC800;
+    list-style-image: url("/assets/assets/check-gray.png");
+}
+
+.pricing-main .btn1{
+    background-color: #002147 !important;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+}
+
+/*  */
+.pricing-main .head-card2{
+    background-color: #033977 !important;
+    margin: auto;
+    padding-top: 14px;
+    padding-bottom: 0px;
+    border-radius: 0;
+    color: white;
+    width: 10rem;
+}
+.pricing-main .card-item .item2-1{
+    list-style-image: url("/assets/assets/check-gray.png");
+}
+.pricing-main .btn2{
+    background-color: #FDC800 !important;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    color: #002147;
+}
+
+/*  */
+.pricing-main .head-card3{
+    background-color: #002147 !important;
+    margin: auto;
+    padding-top: 14px;
+    padding-bottom: 0px;
+    border-radius: 0;
+    color: white;
+    width: 10rem;
+}
