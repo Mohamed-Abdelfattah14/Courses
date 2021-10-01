@@ -1,0 +1,29 @@
+.detail-main{
+    background-color: #F0F4F9;
+}
+.detail-main .head{
+    padding-top: 80px;
+    padding-bottom: 230px;
+}
+.detail-main .head-h4{
+    color: #FDC800;
+    font-size: 20px;
+}
+.detail-main .head-h2{
+    color: #002147;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+.info{
+    margin-top: -150px;
+}
+.info .img img{
+    width: 90%;
+    height: 100%;
+}
+.info span{
+    font-weight: bold;
+}
+.info .imgs{
+    height: 150px;
+}

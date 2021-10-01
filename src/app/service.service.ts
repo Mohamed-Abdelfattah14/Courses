@@ -11,4 +11,7 @@ export class ServiceService {
   getCourses(){
     return this.http.get(this.api)
   }
+  courseDetails(id:any){
+    return this.http.get(`${this.api}/${id}`,{observe:'response'})
+  }
 }

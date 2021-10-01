@@ -16,6 +16,11 @@ import { CountComponent } from './components/home/count/count.component';
 import { SubscribtionComponent } from './components/home/subscribtion/subscribtion.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CardPricingComponent } from './components/pricing/card-pricing/card-pricing.component';
+import { FilterComponent } from './components/courses/filter/filter.component';
+import { CourseComponent } from './components/courses/course/course.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CourseDetailsComponent } from './components/courses/course-details/course-details.component';
+import { CourseInfoComponent } from './components/courses/course-info/course-info.component';
 
 @NgModule({
   declarations: [
@@ -31,12 +36,17 @@ import { CardPricingComponent } from './components/pricing/card-pricing/card-pri
     CountComponent,
     SubscribtionComponent,
     FooterComponent,
-    CardPricingComponent
+    CardPricingComponent,
+    FilterComponent,
+    CourseComponent,
+    CourseDetailsComponent,
+    CourseInfoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

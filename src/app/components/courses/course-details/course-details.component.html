@@ -1,0 +1,39 @@
+<div class="detail-main">
+    <div class="container">
+        <div class="head">
+            <h4 class="head-h4">Course Detail</h4>
+            <h2 class="head-h2">{{course.title}}</h2>
+        </div>
+    </div>
+</div>
+
+<div class="info">
+    <div class="container">
+        <div class="info-detail">
+            <div class="row">
+                <div class="col-12 col-md-8 img">
+                    <img src={{course.imgL}} alt="fghn"/>
+                </div>
+                <div class="col-12 col-md-4 left">
+                    <div class="card">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item"><span>Enrolled </span>: {{course.enroll}}</li>
+                          <li class="list-group-item"><span>Duration </span>: {{course.duration}}</li>
+                          <li class="list-group-item"><span>Lecture </span>: {{course.lecture}}</li>
+                          <li class="list-group-item"><span>Category </span>: {{course.category}}</li>
+                          <li class="list-group-item"><span>Level </span>: {{course.level}}</li>
+                          <li class="list-group-item"><div class="text-center">
+                              <img src={{course.imgS}} alt="fghj" class="imgs" />
+                              <h3 class="form-text">Contact customer Support at</h3>
+                              <h6 class="text-primary">{{course.email}}</h6>
+                          </div></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-feedback></app-feedback>
+<app-subscribtion></app-subscribtion>

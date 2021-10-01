@@ -1,0 +1,21 @@
+.main-filter{
+    background-color: #F0F4F9;
+    padding-top: 80px;
+    padding-bottom: 230px;
+}
+.main-filter .head-h4{
+    color: #FDC800;
+    font-size: 20px;
+}
+.main-filter .head-h2{
+    color: #002147;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+.main-filter .btn-outline-primary{
+    color: #002147 !important;
+    border: 1px solid #002147 !important;
+}
+.main-filter .btn-outline-primary:hover{
+    background-color: #F0F4F9 !important;
+}
