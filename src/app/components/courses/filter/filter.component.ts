@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
+import { ServiceService } from './../../../service.service';
 
 @Component({
   selector: 'app-filter',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FilterComponent implements OnInit {
 
-  constructor() { }
+  @Output() courses!: any;
+  constructor(private servise: ServiceService) { }
 
   ngOnInit(): void {
-  }
 
+  }
+  getFiled(f: any, l: any) {
+    this.servise.filterData(f, l).subscribe();
+  }
 }

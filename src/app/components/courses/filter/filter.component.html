@@ -1,36 +1,38 @@
 <div class="main-filter">
-    <div class="container">
-        <h4 class="head-h4">Courses Category</h4>
-        <h2 class="head-h2">Web Development</h2>
+  <div class="container">
+    <h4 class="head-h4">Courses Category</h4>
+    <h2 class="head-h2">Web Development</h2>
 
-        <div class="filter mt-5">
-            <div class="row">
+    <div class="filter mt-5">
+      <div class="row">
 
-                <div class="col-6 text-center">
-                    <div class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
-                        <button class="btn btn-outline-primary mr-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop.open()">Category</button>
-                        <div ngbDropdownMenu aria-labelledby="dropdownManual">
-                          <button ngbDropdownItem>Action</button>
-                          <button ngbDropdownItem> Action</button>
-                          <button ngbDropdownItem>Something else is here</button>
-                        </div>
-                      </div>
-                      
-                </div>
-
-                <div class="col-6 text-center">
-                    <div class="d-inline-block" ngbDropdown #myDrop1="ngbDropdown">
-                        <button class="btn btn-outline-primary mr-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop1.open()">Level</button>
-                        <div ngbDropdownMenu aria-labelledby="dropdownManual">
-                          <button ngbDropdownItem>Action - 1</button>
-                          <button ngbDropdownItem>Another Action</button>
-                          <button ngbDropdownItem>Something else is here</button>
-                        </div>
-                      </div>
-                      
-                </div>
-
+        <div class="col-6 text-center">
+          <div class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
+            <button class="btn btn-outline-primary mr-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop.open()"
+              >Category</button>
+            <div ngbDropdownMenu aria-labelledby="dropdownManual">
+              <button ngbDropdownItem (click)="getFiled('category','Web Development')">Web Development</button>
+              <button ngbDropdownItem (click)="getFiled('category','Web Desgin')">Web Desgin</button>
+              <button ngbDropdownItem (click)="getFiled('category','UI/UX')">UI/UX</button>
             </div>
+          </div>
+
         </div>
+
+        <div class="col-6 text-center">
+          <div class="d-inline-block" ngbDropdown #myDrop1="ngbDropdown">
+            <button class="btn btn-outline-primary mr-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop1.open()"
+              >Level</button>
+            <div ngbDropdownMenu aria-labelledby="dropdownManual">
+              <button ngbDropdownItem (click)="getFiled('level','Senior Level')">Senior</button>
+              <button ngbDropdownItem (click)="getFiled('level','Bigginer Level')">Bigginer</button>
+              <button ngbDropdownItem (click)="getFiled('level','Intermediate Level')">Intermediate</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
     </div>
+  </div>
 </div>
