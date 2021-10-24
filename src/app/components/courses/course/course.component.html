@@ -1,21 +1,30 @@
 <div class="container">
-    <div class="main-course">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4" *ngFor="let c of course">
-                <div class="card">
-                    <a routerLink="/course/{{c.id}}">
-                        <img src={{c.imgL}} class="card-img-top img-fluid" alt="ux-designer-web-designer" />
-                    </a>
-                    <div class="card-body">
-                        <img src={{c.imgS}} class="img-thumbnail" alt="The Museum of Modern Art" width="74"
-                            height="74" />
-                        <h4 class="card-title">
-                            {{c.title}}
-                        </h4>
-                        <p class="card-text text-muted">{{c.college}}</p>
-                    </div>
-                </div>
-            </div>
+  <div class="main-course">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4" *ngFor="let c of courses">
+        <div class="card">
+          <a routerLink="/course/{{ c.id }}">
+            <img
+              src="{{ c.imgL }}"
+              class="card-img-top img-fluid"
+              alt="ux-designer-web-designer"
+            />
+          </a>
+          <div class="card-body">
+            <img
+              src="{{ c.imgS }}"
+              class="img-thumbnail"
+              alt="The Museum of Modern Art"
+              width="74"
+              height="74"
+            />
+            <h4 class="card-title">
+              {{ c.title }}
+            </h4>
+            <p class="card-text text-muted">{{ c.college }}</p>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </div>

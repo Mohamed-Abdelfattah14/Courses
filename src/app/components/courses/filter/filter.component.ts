@@ -15,6 +15,10 @@ export class FilterComponent implements OnInit {
 
   }
   getFiled(f: any, l: any) {
-    this.servise.filterData(f, l).subscribe();
+    this.courses = this.servise.filterData(f, l);
+    console.log(this.courses)
+
+    this.servise.courses.next(this.courses)
+
   }
 }

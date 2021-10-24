@@ -12,7 +12,7 @@ export class FeatureComponent implements OnInit {
   constructor(private api: ServiceService) { }
 
   ngOnInit(): void {
-    this.api.getCourses().subscribe(res => { this.course = res 
+    this.api.courses.subscribe(res => { this.course = res 
     console.log(res);
     })
   }

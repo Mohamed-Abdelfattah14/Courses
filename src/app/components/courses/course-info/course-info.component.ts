@@ -15,12 +15,12 @@ export class CourseInfoComponent implements OnInit {
    }
 
   ngOnInit(): void {
-    this.service.getCourses().subscribe(
-      (res) => {
-        this.course = res
-        console.log(res)
-      }
-    )
+    // this.service.getCourses().subscribe(
+    //   (res) => {
+    //     this.course = res
+    //     console.log(res)
+    //   }
+    // )
   }
 
 }
